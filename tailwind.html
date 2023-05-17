@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+    <meta name="description" content="Test tailwind css.">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logoverylittle.png">
+    <title>Test tailwind</title>
+</head>
+<body>
+    <header>
+        <div class="flex flex-row justify-between md:items-center mx-auto max-w-screen-xl">
+            <div class="hidden md:block">
+                <img src="assets/images/logoverylittle.png" class="h-24" alt="Logo perso"/>
+            </div>
+            <div class="my-3 hidden text-center md:block">
+                <h1 class="header__title">Sébastien Jacquelin TailwindCss</h1>
+                <p class="header__slogan">Apprendre / Entreprendre / Devenir</p>
+            </div>
+            <div class="mx-3">
+               <img src="assets/images/meronde.png" class="my-3 h-24 " alt="photo_de_moi"/> 
+            </div>
+        </div>
+    </header>
+    <div class="cursor z-60"></div>
+    <div class="w-full sticky top-0 inset-x-0 z-50">
+        <nav class="w-full bg-white">
+            <div class="container w-full flex flex-wrap items-center justify-center bg-white">
+                <button data-collapse-toggle="mobile-menu" type="button" class="md:hidden text-[#f4623a] hover:text-[#f4623a] focus:outline-none focus:ring-2 focus:text-[#f4623a] rounded-lg inline-flex items-center justify-center w-full" aria-controls="mobile-menu-2" aria-expanded="false">
+                    <span class="">Menu</span>
+                    <!-- 
+                    <svg class="w-6 h-6" fill="#f4623a" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    <svg class="hidden w-6 h-6" fill="#f4623a" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
+                    -->
+                </button>
+                <div class="hidden md:block w-full" id="mobile-menu">
+                    <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-lg md:font-medium justify-center items-center py-5 w-full">
+                        <li class="w-full">
+                        <a href="index.html" class="text-[#f4623a] bg-white border-b border-[#000] block py-2  md:border-0 md:p-0 rounded">CV</a>
+                        </li>
+                        <li class="w-full">
+                        <a href="hobby.html" class="text-[#f4623a] bg-white border-b border-[#000] block py-2 md:border-0 md:p-0 rounded">HOBBY</a>
+                        </li>
+                        <li class="w-full">
+                        <a href="contact.html" class="text-[#f4623a] bg-white border-b border-[#000] block py-2 md:border-0 md:p-0 rounded">CONTACT</a>
+                        </li>
+                        <li class="w-full">
+                        <a href="tailwind.html" class="text-[#f4623a] bg-white border-b border-[#000] block py-2 md:border-0 md:p-0 rounded">TAILWIND</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <h2 class="text-4xl mt-28 ml-20 text-[#f4623a] font-['Roboto'] font-bold italic"><i class="fa-solid fa-magnifying-glass"></i> Framework d'intégration TailwindCss</h2>
+
+    <figure class="md:flex bg-white-100 rounded-xl p-8 md:p-0 mt-10 mx-5">
+        <img class="w-30 h-30 md:w-1/3 rounded-xl mx-auto" src="/assets/images/tailwind.webp" alt="logo_tailwind" width="384" height="512">
+        <div class="pt-6 md:p-8 text-center md:text-left space-y-4 w-1/">
+          <blockquote class="md:border-l md:border-[#000] pl-5">
+            <p class="text-lg font-medium text-left">
+                Tailwind CSS est un framework permettant aux développeurs de personnaliser totalement et simplement le design de leur application ou de leur site web. Avec ce framework CSS, il est possible de créer un design d’interface au sein même du fichier HTML. Cette façon de programmer n’interfère pas avec les pratiques recommandées par le W3C comme celle de séparer le HTML des feuilles de style CSS.
+                <br> En effet, pour utiliser Tailwind il faut prendre les classes CSS prédéfinies par le framework en les appelant dans un fichier HTML comme ceci :
+                <br> class="text-3xl font-bold text-cyan-500"
+                <br>
+                Au vu de cet exemple, on peut penser que Tailwind CSS reprend la même méthodologie de programmation que Bootstrap. Pourtant, en termes de poids, Tailwind CSS est plus lourd que le framework Bootstrap, on pourrait alors se demander pourquoi l’utiliser ?
+            </p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div>
+                 <img class="w-24 h-24 md:w-40 md:h-40 rounded-full mx-auto self-start" src="/assets/images/logoverylittle.png" alt="mon_logo" width="384" height="512">
+            </div>
+          </figcaption>
+        </div>
+    </figure>
+
+
+    <!-- component -->
+    <div class="flex justify-center">
+      <i class="fa-solid fa-timeline"></i>
+    </div>
+<div class="z-10 container mx-auto w-full h-full rounded mt-10 mb-10">
+    <div class="relative flex flex-col md:wrap overflow-hidden p-10 h-full ">
+      <div class="border-2-2 absolute border-opacity-20 border-[#f4623a] h-full border hidden md:block" style="left: 50%"></div>
+      <!-- right timeline -->
+      <div class="mb-8 flex justify-between items-center w-full right-timeline">
+        <div class="order-1 w-5/12"></div>
+        <div class="z-20 text-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full border border-[#f4623a] hidden md:block">
+          <h1 class="mx-auto font-semibold text-lg text-[#f4623a]">1</h1>
+        </div>
+        <div class="order-1 bg-black rounded-lg shadow-xl md:w-5/12 px-6 py-4">
+          <h3 class="mb-3 font-bold text-[#f4623a] text-xl">Le numérique</h3>
+          <ul class="text-white">
+            <li>Alternant développeur web - Smartfidélis</li>
+            <li>Création de site avec un CMS pour l'entreprise : <a href="https://soiensoi.fr/" target="_blank" title="Entreprise SoienSoi">SoienSoi.</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- left timeline -->
+      <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+        <div class="order-1 w-5/12"></div>
+        <div class="z-20 text-center order-1 bg-white shadow-xl w-8 h-8 rounded-full border border-black hidden md:block">
+          <h1 class="mx-auto text-[#f4623a] font-semibold text-lg">2</h1>
+        </div>
+        <div class="order-1 bg-white rounded-lg shadow-xl md:w-5/12 px-6 py-4">
+          <h3 class="mb-3 font-bold text-[#f4623a] text-xl">Sûreté privée</h3>
+          <ul class="text-black">
+            <li>Panthera Sécurité : Chef de poste et Agent de sécurité</li>
+            <li>Seris : Agent de sécurité</li>
+            <li>SPR : Agent de sécurité / Agent de sécurité incendie</li>
+            <li>OLIPS : Agent de protection rapprochée</li>
+            <li>EPR : Agent de protection rapprochée</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- right timeline -->
+      <div class="mb-8 flex justify-between items-center w-full right-timeline">
+        <div class="order-1 w-5/12"></div>
+        <div class="z-20 text-center order-1 bg-black shadow-xl w-8 h-8 rounded-full border border-[#f4623a] hidden md:block">
+          <h1 class="mx-auto font-semibold text-lg text-[#f4623a]">3</h1>
+        </div>
+        <div class="order-1 bg-black rounded-lg shadow-xl md:w-5/12 px-6 py-4">
+          <h3 class="mb-3 font-bold text-[#f4623a] text-xl">Grande distribution</h3>
+          <ul class="text-white">
+            <li>Intermarché (Responsable rayon liquide)</li>
+          </ul>        
+        </div>
+      </div>
+  
+      <!-- left timeline -->
+      <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+        <div class="order-1 w-5/12"></div>
+        <div class="z-20 text-center order-1 bg-white shadow-xl w-8 h-8 rounded-full border border-black hidden md:block">
+          <h1 class="mx-auto text-[#f4623a] font-semibold text-lg">4</h1>
+        </div>
+        <div class="order-1 bg-white rounded-lg shadow-xl md:w-5/12 px-6 py-4">
+          <h3 class="mb-3 font-bold text-[#f4623a] text-xl">Militaire</h3>
+          <ul class="text-black">
+            <li>31éme Régiment du Génie (Compagnie de Combat)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="flex flex-col justify-center items-center">
+      <div class="my-10">
+        <h2 class="text-4xl mt-28 ml-20 text-[#f4623a] font-['Roboto'] font-bold italic"><i class="fa-solid fa-border-all"></i> Grid avec TailwindCss</h2>
+      </div>
+
+      <div class="bg-gray-200 my-5 py-5 grid grid-cols-4 gap-10 rounded text-center w-1/2">
+        <div>Un</div>
+        <div>Deux</div>
+        <div>Trois</div>
+        <div>Quatre</div>
+        <div>Cinq</div>
+        <div>Six</div>
+        <div>Sept</div>
+        <div>Huit</div>
+        <div>Neuf</div>
+        <div>Dix</div>
+        <div>Onze</div>
+        <div>Douze</div>
+        <div>Treize</div>
+        <div>Quatorze</div>
+        <div>Quinze</div>
+        <div>Seize</div>
+        <div>Dix-sept</div>
+        <div>Dix-huit</div>
+        <div>Dix-neuf</div>
+        <div>Vingt</div>
+      </div>
+    </div>
+  </section>
+
+    <footer>
+        <div class="flex">
+            <div class="p-2 w-full self-center">
+                <p>| 2023 Sébastien Jacquelin |</p>
+            </div>
+            <div class="p-2 shrink backTop">
+                <button class="bg-[#f4623a] rounded-lg self-end border border-white ">
+                    <a href="#" title="Retour en haut" class="bg-[#f4623a] rounded-xl">
+                        <img src="assets/images/back-to-top.svg" alt="retour en haut">
+                    </a>   
+                </button>
+            </div>
+          </div>
+    </footer> 
+
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+    <script src="./assets/js/cursorEffectTailwindPage.js"></script>
+</body>
+</html>
