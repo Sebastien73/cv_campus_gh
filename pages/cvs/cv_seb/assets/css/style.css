@@ -20,7 +20,9 @@ body {
 h1, h2, h3{
     font-family: 'Raleway', sans-serif;
 }
-
+.photo__team {
+    width: 40%;
+}
 /* MODIFICATION CSS BOOTSTRAP */
 
 .btn-success{
