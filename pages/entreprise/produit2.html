@@ -17,8 +17,8 @@
   <link href="/assets/css/styles.css" rel="stylesheet" type="text/css">
 
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/logo_entreprise.png">
-  
-  <title>Catalogue</title>
+
+  <title>Produits Fatal.dev</title>
 
 </head>
 
@@ -31,7 +31,7 @@
 
       <a class="navbar-brand d-flex align-items-center" href="/" title="accueil">
         <img src="/assets/img/logo_entreprise.png" alt="logo" class="logo_fatal_dev_header">
-        </a>
+      </a>
 
       <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,28 +49,33 @@
         <div class="mx-auto"></div>
 
         <ul class="navbar-nav">
-           <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link itemMenu text-white" href="/index.html" title="accueil">Accueil</a>
-            </li>
+          </li>
           <li class="nav-item">
             <a class="actifMenu nav-link text-white" href="/pages/entreprise/team.html" title="team">L'équipe</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link itemMenu text-white" href="/pages/entreprise/contact.html" title="contact">Nous contacter</a>
+            <a class="nav-link itemMenu text-white" href="/pages/entreprise/contact.html" title="contact">Nous
+              contacter</a>
           </li>
           <div class="dropdown">
-            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
               Nos produits
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
-                <a class="dropdown-item itemMenu text-dark" href="/pages/entreprise/catalogue.html" title="catalogue">Catalogue</a> 
+                <a class="dropdown-item itemMenu text-dark" href="/pages/entreprise/catalogue.html"
+                  title="catalogue">Catalogue</a>
               </li>
               <li>
-                <a class="dropdown-item itemMenu text-dark" href="/pages/entreprise/produit1.html" title="first-product">Produits Linux</a>
+                <a class="dropdown-item itemMenu text-dark" href="/pages/entreprise/produit1.html"
+                  title="first-product">Produits Linux</a>
               </li>
               <li>
-                <a class="dropdown-item itemMenu text-dark" href="/pages/entreprise/produit3.html" title="third-product">Nos formations</a>
+                <a class="dropdown-item itemMenu text-dark" href="/pages/entreprise/produit3.html"
+                  title="third-product">Nos formations</a>
               </li>
             </ul>
           </div>
@@ -89,9 +94,9 @@
 
           <h1 class="text-white">FATAL.DEV</h1>
 
-          <p class="h2 text-white mb-5">Le 404 n'éxiste pas <br> Merchandising Officiel   </p>
+          <p class="h2 text-white mb-5">Le 404 n'éxiste pas <br> Merchandising Fatal.dev</p>
 
-          <a href="#about__section" title="scroll_section_suivante" class="mt-5">
+          <a href="#first_img_product_fatal" title="scroll_section_suivante" class="mt-5">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
               class="bi bi-arrow-down-square mt-3" viewBox="0 0 16 16">
               <path fill-rule="evenodd"
@@ -108,31 +113,164 @@
   </header>
 
   <main class="mt-5">
+    <section style="background-color: #fff;">
+      <div class="container mt-5 d-sm-flex  .d-flex .d-md-flex">
+        <div class="row justify-content-center">
+          <div>
+            <div class="card text-black m-5">
 
-  <hr class="bg-dark border border-top border-dark mx-5 opacity-50">
+              <img src="/assets/img/t-shirt-fatal.png" class="card-img-top" alt="Tee-shirt de c0deur fatal dev"
+                id="first_img_product_fatal" />
+              <div class="card-body text-center bg-white text-darkrounded">
+                <div class="text-center">
+                  <h5 class="card-title ">JUST SUDO IT</h5>
+                  <p class="mb-4">Tee-shirt de c0deur</p>
+                </div>
+                <div>
+                  <div class="taille mb-2">
 
-  <footer class="bg-dark d-flex flex-md-row flex-sm-column justify-content-around align-items-center py-3 my-4">
-    <div class="col-md-4 d-flex flex-column flex-md-row align-items-center">
-      <div>
-        <a href="/index.html"class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 d-flex justify-content-center ">
-          <img src="/assets/img/logo_entreprise.png" alt="logo_fatal_dev" class="logo_fatal_dev_footer">
-          <p class="text-white mx-2 mb-md-0 d-flex align-items-center">FATAL.DEV</p>
-        </a>
+
+                    <h6>sélectionner une taille:</h6>
+                    <label id="L">L </label>
+                    <input type="radio" name="taille" value="L">
+                    <label id="XL">XL </label>
+                    <input type="radio" name="taille" value="XL">
+
+
+                  </div>
+                  <div class="Quantité mb-2">
+                    <label id="Quantité"> Quantité</label>
+                    <input type="number" name="Quantité" min="1" required>
+                  </div>
+                  <div class="mt-2 mb-2">
+                    <button type="button " class="btn btn-dark bg-dark"><i class="fas fa-shopping-cart ms-1"></i> Ajouter au panier</button>
+                  </div>
+                  <a class="btn btn-dark ms-1 my-3 " type="submit" href="/pages/entreprise/catalogue.html">
+                    <i class="fa-solid fa-left-long"></i> Retour catalogue
+                  </a>
+                </div>
+                <div class="livraison">
+                  <span>Livraison </span><span>4.99€ </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div>
+            <div class="card text-black m-5">
+
+              <img src="/assets/img/tapis-souris.jpg" class="card-img-top" alt="Tapis de souris anti-windows fatal dev" />
+              <div class="card-body text-center bg-dark text-white rounded">
+                <div class="text-center">
+                  <h5 class="card-title">Tapis anti-windows</h5>
+                  <p class="text-white mb-4">Le tapis ultime !</p>
+                </div>
+                <div>
+                  <div class="taille mb-2">
+
+
+                    <h6>sélectionner une taille:</h6>
+                    <label id="350x300mm">350 x 300mm </label>
+                    <input type="radio" name="taille" value="350 x 300mm">
+                    <label id="450 x 400mm">450 x 400mm</label>
+                    <input type="radio" name="taille" value="450 x 400mm">
+
+
+                  </div>
+                  <div class="Quantité mb-2 mt-2">
+                    <label id="Quantité"> Quantité</label>
+                    <input type="number" name="Quantité" min="1" required>
+                  </div>
+                  <div class="mt-2">
+                    <button type="button" class="btn btn-primary bg-primary"><i class="fas fa-shopping-cart ms-1"></i> Ajouter au panier</button>
+                  </div>
+                  <a class="btn btn-primary ms-1 my-3 " type="submit" href="/pages/entreprise/catalogue.html">
+                    <i class="fa-solid fa-left-long"></i> Retour catalogue
+                  </a>
+                </div>
+                <div class="livraison">
+                  <span>Livraison </span><span>4.99€</span>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div>
+            <div class="card text-black m-5 ">
+
+              <img src="/assets/img/poster.jpg" class="card-img-top" alt="poster_fatal_dev" />
+              <div class="card-body text-center bg-primary text-white rounded">
+                <div class="text-center">
+                  <h5 class="card-title">JUST SUDO IT</h5>
+                  <p class="text-white mb-4">Poster Fatal dev</p>
+                </div>
+                <div>
+                  <div class="taille mb-2 mt2">
+
+
+                    <h6>sélectionner une taille:</h6>
+                    <label id="40x60cm">40x60cm </label>
+                    <input type="radio" name="taille" value="40x60cm">
+                    <label id="50x80cm">50x80cm </label>
+                    <input type="radio" name="taille" value="50x80cm">
+
+
+                  </div>
+                  <div class="Quantité mb-2">
+                    <label id="Quantité"> Quantité</label>
+                    <input type="number" name="Quantité" min="1" required>
+                  </div>
+                  <div class="mt-2">
+                    <button type="button" class="btn btn-dark bg-dark"><i class="fas fa-shopping-cart ms-1"></i> Ajouter au panier</button>
+                  </div>
+                  <a class="btn btn-dark ms-1 my-3 " type="submit" href="/pages/entreprise/catalogue.html">
+                    <i class="fa-solid fa-left-long"></i> Retour catalogue
+                  </a>
+                </div>
+                <div class="livraison">
+                  <span>Livraison </span><span>4.99€</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-      
+    </section>
 
-      <ul class="nav col-md-4 flex-md-row justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-white" href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li class="ms-3"><a class="text-white" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-        <li class="ms-3"><a class="text-white" href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-      </ul>
+    <hr class="bg-dark border border-top border-dark mx-5 opacity-50">
 
-    </div>
+    <footer class="bg-dark d-flex flex-md-row flex-sm-column justify-content-around align-items-center py-3 my-4">
+      <div class="col-md-4 d-flex flex-column flex-md-row align-items-center">
+        <div>
+          <a href="/index.html"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 d-flex justify-content-center ">
+            <img src="/assets/img/logo_entreprise.png" alt="logo_fatal_dev" class="logo_fatal_dev_footer">
+            <p class="text-white mx-2 mb-md-0 d-flex align-items-center">FATAL.DEV</p>
+          </a>
+        </div>
 
-  </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="/assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
-</main>
+
+        <ul class="nav col-md-4 flex-md-row justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-white" href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li class="ms-3"><a class="text-white" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="ms-3"><a class="text-white" href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+
+      </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+      integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+  </main>
 </body>
 
 </html>
