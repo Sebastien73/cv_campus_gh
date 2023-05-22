@@ -1,0 +1,54 @@
+[33mcommit fcdaf10d13c9fccbd70bef0df6858b6c1515bad1[m[33m ([m[1;36mHEAD -> [m[1;32mOliv[m[33m, [m[1;31morigin/Oliv[m[33m)[m
+Author: Olivier HIMBLOT <olivier.himblot@le-campus-numerique.fr>
+Date:   Mon May 22 10:03:21 2023 +0200
+
+    bug fix
+
+[33mcommit 31eeabbcc3dfc57c6a63465678911cb433fae8c7[m
+Merge: 4763d4b 96b5a9d
+Author: Olivier HIMBLOT <olivier.himblot@le-campus-numerique.fr>
+Date:   Mon May 22 09:45:57 2023 +0200
+
+    Merge remote-tracking branch 'origin/abou' into Oliv
+
+[33mcommit 96b5a9dcf5da14233ba5eb69be88d1e5a632dd5c[m
+Author: Aboubakeur TRICHINE <aboubakeur.trichine@Digital-Grenoble.local>
+Date:   Mon May 22 09:40:06 2023 +0200
+
+    cv abou
+
+[33mcommit 4763d4b3fa54a5a12bb42338d024c5f8bfb8bb1c[m[33m ([m[1;31morigin/seb[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Olivier HIMBLOT <olivier.himblot@le-campus-numerique.fr>
+Date:   Mon May 22 09:37:02 2023 +0200
+
+    ajout CV Oliv et modif accueil et team
+
+[33mcommit d6f826c9ceb95f8df77a7131af0e042d2ef04c68[m
+Author: Sébastien Jacquelin <jssebastienjacquelin@hotmail.com>
+Date:   Mon May 22 09:27:41 2023 +0200
+
+    add other pages compagny site
+
+[33mcommit 0cfb3efdd000e8b8bb95c6f327e102c5767f46fa[m
+Author: Sébastien Jacquelin <jssebastienjacquelin@hotmail.com>
+Date:   Mon May 22 09:25:13 2023 +0200
+
+    add assests for compagny site
+
+[33mcommit 1ba60560a9797452d5f1585f215a033f86f5404e[m
+Author: Sébastien Jacquelin <jssebastienjacquelin@hotmail.com>
+Date:   Mon May 22 09:21:15 2023 +0200
+
+    modifications
+
+[33mcommit fb5502519933479b368ef53033c9167662510947[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Sébastien Jacquelin <jssebastienjacquelin@hotmail.com>
+Date:   Wed May 17 11:24:16 2023 +0200
+
+    Change title on index page.
+
+[33mcommit 53d0e25e126e8446f294c8faa82bf56f2c71d904[m
+Author: Sébastien Jacquelin <jssebastienjacquelin@hotmail.com>
+Date:   Wed May 17 11:10:53 2023 +0200
+
+    Initial commit
