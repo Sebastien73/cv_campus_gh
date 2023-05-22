@@ -1,318 +1,234 @@
 <!DOCTYPE html>
+
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="assets/bootstrap-5.2.3-dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
-    <meta name="description" content="Curriculum vitae.">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logoverylittle.png">
-    <title>CV Sébastien - Github</title>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="/assets/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <link href="/assets/fontawesome/css/all.css" rel="stylesheet" type="text/css">
+
+  <link href="/assets/css/styles.css" rel="stylesheet" type="text/css">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/logo_entreprise.png">
+  
+  <title>Accueil Fatal.dev</title>
+
 </head>
+
 <body>
-    <header>
-        <div id=header class=container__header>
-            <div class="container__logo">
-                <div>
-                    <img src="assets/images/logoverylittle.png" class="header__logo" alt="Logo perso"/>
-                </div>
-            </div>
-            <div class="container__title">
-                <div>
-                    <h1 class="header__title">Sébastien Jacquelin CV</h1>
-                    <p class="header__slogan">Apprendre / Entreprendre / Devenir</p>
-                </div>
-            </div>
-            <div class="container__picture">
-                <div>
-                    <img src="assets/images/meronde.png" class="header__picture" alt="photo_de_moi"/>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="cursorOtherPage"></div>
-    <nav id="menu"> <!-- MENU PC -->
-        <ul class=menu1>
-            <li class="bouton1"><a href="index.html" title="Mon CV">CV</a></li>
-            <li class="bouton2"><a href="hobby.html" title="Mon hobby">HOBBY</a></li>
-            <li class="bouton4"><a href="contact.html" title="Me contactez">CONTACT</a></li>
-            <li class="bouton5"><a href="tailwind.html" title="Tailwind test">TAILWIND</a></li>
+
+  <!-- Navbar  -->
+  <nav class="navbar navbar-expand-lg bg-dark p-md-3 d-flex flex-column">
+
+    <div class="container d-flex flex-wrap">
+
+      <a class="navbar-brand d-flex align-items-center" href="/" title="accueil">
+        <img src="/assets/img/logo_entreprise.png" alt="logo" class="logo_fatal_dev_header">
+      </a>
+
+      <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-three-dots "
+            viewBox="0 0 18 18">
+            <path
+              d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+          </svg>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <div class="mx-auto"></div>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="actifMenu nav-link text-white" href="/pages/entreprise/team.html" title="Accueil">L'équipe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link itemMenu text-white" href="#product__title" title="catalogue">La boutique</a>    
+          </li>       
+          <li class="nav-item">
+            <a class="nav-link itemMenu text-white" href="/pages/entreprise/contact.html" title="contact">Nous contacter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link itemMenu text-white" href="#about__title" title="about">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link itemMenu text-white" href="#about__historique" title="histoire">Historique</a>
+          </li>
         </ul>
-    </nav>
-    <div id="mobile_navbar" class="c"> <!-- MENU CLIQUE DROPDOWN -->
-        <div class="dd">
-          <div class="dd-a"><span>Menu</span></div>
-          <input type="checkbox">
-          <div class="dd-c">
-            <ul>
-              <li><a href="index.html"><span>CV</span></a></li>
-              <li><a href="hobby.html"><span>Hobby</span></a></li>
-              <li><a href="contact.html"><span>Contact</span></a></li>
-              <li><a href="tailwind.html"><span>Tailwind</span></a></li>
-            </ul>
-          </div>
-        </div>
+
+      </div>
+
     </div>
-    <!-- <nav id=menu2>  MENU MOBILE / TABLETTE DEROULANT
-        <ul class=menu2>
-            <li class="deroulant"><a href="#">MENU &ensp;</a>
-                <ul class="sous">
-                    <li class="bouton1"><a href="cv_seb.html" title="Mon CV">CV</a></li>
-                    <li class="bouton2"><a href="hobby_seb.html" title="Mon hobby">HOBBY</a></li>
-                    <li class="bouton3"><a href="video_seb.html" title="Mon pitch">VIDEO</a></li>
-                    <li class="bouton4"><a href="contact_seb.html" title="Me contactez">CONTACT</a></li>
-                </ul>
-            </li>
+
+  </nav>
+
+  <header class="masthead">
+    <div class="container h-100">
+
+      <div class="row vh-100 align-items-center">
+
+        <div class="col-12 text-center">
+
+          <h1 class="text-white">FATAL.DEV</h1>
+
+          <p class="h2 text-white mb-5">Le 404 n'éxiste pas <br> Bienvenue</p>
+
+          <a href="#about__section" title="scroll_section_suivante" class="mt-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white"
+              class="bi bi-arrow-down-square mt-3" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 2.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+            </svg>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+  <main class="mt-5">
+    
+    <!-- Banner Image  -->
+
+    <section id="about__section" class="mt-5 bg-light p-3">
+
+      <div class="container justify-content-center align-items-center">
+
+        <h1 id="about__title" class="text-center m-3">À propos</h1>
+
+        <p class="about__title__paragraphe text-center">FATAL DEV est une équipe de passionnée
+          avec un grand savoir faire dans la création et l'entretien de vos site web.
+          Notre équipe est spécialisée dans le DevOps nous permettant d'avoir
+          les compétences complémentaires pour la réalisation de vos projet.
+          Nous sommes là pour vous trouver des solutions à tous vos problèmes.
+          La société est implantée dans la capitale des alpes: Grenoble.
+          
+        </p>
+
+      </div>
+
+    </section>
+
+    <hr class="bg-dark border border-top border-dark mx-5 opacity-50">
+
+    <section id="about__historique" class="p-3 m-3">
+
+      <div class="container">
+
+        <h1 class="about__historique text-center mb-5">L'historique </h1>
+
+        <ul class="timeline-with-icons">
+          <li class="timeline-item mb-5">
+            <span class="timeline-icon">
+              <i class="fa-solid fa-hourglass-start" style="color: #0d6ba6;"></i>
+            </span>
+            <h5 class="fw-bold mb-4"> FATAL DEV </h5>
+            <p class="about__historique__paragraphe"> Notre entreprise a démarré son activité le 16 Mars 2020.</p>
+          </li>
+
+          <li class="timeline-item mb-5">
+            <span class="timeline-icon">
+              <i class="fa-sharp fa-solid fa-people-group" style="color: #0d6ba6;"></i>
+            </span>
+            <h5 class="fw-bold mb-4"> Team</h5>
+            <p class="about__historique__paragraphe">Lina nous a rejoint le 20 avril 2021.</p>
+            <p class="about__historique__paragraphe">Un alternant, Sébastien, nous a rejoint le 06 janvier 2022.</p>
+          </li>
+
+          <li class="timeline-item mb-5">
+            <span class="timeline-icon">
+              <i class="fa-solid fa-file-signature" style="color: #0d6ba6;"></i>
+            </span>
+            <h5 class="fw-bold mb-4">Le premier contrat</h5>
+            <p class="about__historique__paragraphe">Le 26 Août 2020 on a signé notre premier contrat!</p>
+            <p class="about__historique__paragraphe">Depuis nous avons une moyenne de 10 projets par mois!</p>
+
+          </li>
+
         </ul>
-    </nav>
-    -->
-    <h2 id=aboutme><i class="fa-regular fa-address-card"></i> À propos de moi</h2>
-    <p id=description>Sébastien Jacquelin | Résidant à Saint-Pierre d'Albigny<br />
-    Véhiculé : Permis B<br />
-    <br />
-    Actuellement en pleine reconversion professionnelle dans le secteur du numérique, et plus précisément dans une formation DevOps avec le Campus Numérique in the ALPS.<br />
-    Ayant une compréhension rapide de ce que l'on m'enseigne, cela me permet de m'adapter plus facilement dans ce que j'entreprends, c'est pour moi une grande force.<br />
-    Mon objectif principal est de maîtriser un maximum les langages du back end (php)</p>
-    <h2 id=competences><i class="fa-regular fa-rectangle-list"></i> Mes compétences</h2>
-    <div id=liste_comp>
-        <div id=num>
-            <p class=cat_comp>Numérique :</p> 
-            <ul>
-                <li class=comp>HTML, <meter min="0" max="100" value="80"></meter></li>
-                <li class=comp>CSS,<meter min="0" max="100" value="80"></meter></li>
-                <li class=comp>JAVASCRIPT, <meter min="0" max="100" value="50"></meter></li>
-                <li class=comp>Microsoft Word, <meter min="0" max="100" value="80"></meter></li>
-                <li class=comp>Microsoft Excel, <meter min="0" max="100" value="70"></meter></li>
-                <li class=comp>Photoshop, <meter min="0" max="100" value="20"></meter></li>
-                <li class=comp>Visual studio code. <meter min="0" max="100" value="70"></meter></li>
-            </ul>
-        </div>
-        <div id=surete>
-            <p class=cat_comp>Sûreté :</p>
-            <ul>
-                <li class=comp>Sécurité, <meter min="0" max="100" value="100"></meter></li>
-                <li class=comp>Sécurité incendie, <meter min="0" max="100" value="100"></meter></li>
-                <li class=comp>Protection rapprochée, <meter min="0" max="100" value="100"></meter></li>
-                <li class=comp>Tir, <meter min="0" max="100" value="100"></meter></li>
-                <li class=comp>Secourisme (PCS1), <meter min="0" max="100" value="100"></meter></li>
-                <li class=comp>Secourisme tactique. <meter min="0" max="100" value="100"></meter></li>
-            </ul>
-        </div>
-        <div id=qualites>
-            <p class=cat_comp>Mes qualités :</p>
-            <ul>
-                <li class=comp>Autoditacte,</li>
-                <li class=comp>Aime apprendre,</li>
-                <li class=comp>Organiser,</li>
-                <li class=comp>Rigoureux,</li>
-                <li class=comp>Investit</li>
-                <li class=comp>Assidue,</li>
-            </ul>
-        </div>
-        <div id=atouts>
-            <p class=cat_comp>Mes atouts :</p>
-            <ul>
-                <li class=comp>Travail seul et en équipe,</li>
-                <li class=comp>Me dépasse dans mes objectifs,</li>
-                <li class=comp>Bonne compréhension,</li>
-                <li class=comp>Poser des questions pour progresser,</li>
-            </ul>
-        </div>
-        <div id=valeurs>
-            <p class=cat_comp>Mes valeurs :</p>
-            <ul>
-                <li class=comp>Discipline,</li>
-                <li class=comp>Dépassement de soi,</li>
-                <li class=comp>Transmission de connaissances,</li>
-                <li class=comp>Innovation,</li>
-                <li class=comp>Partage.</li>
-            </ul>
-        </div>
-    </div>
-    <h2 id=experience><i class="fa-regular fa-rectangle-list"></i> Mes expériences professionnelles</h2>
-    <!-- 
-    <div id=quatre_colonne>
-        <div id=tableau1>
-            <table>
-                <tr>
-                    <th id=numerique>Numérique :</th>
-                </tr>
-                <tr>
-                    <td>Alternant développeur web - Smartfidélis</td>
-                </tr>
-                <tr>
-                    <td>Création de site avec un CMS pour l'entreprise : <a href="https://soiensoi.fr/" target="_blank" title="Entreprise SoienSoi">SoienSoi.</a></td>
-                </tr>
-            </table>
-        </div>
-        <div id=tableau2>
-            <table>
-                <tr>
-                    <th id=securite>Sûreté privée :</th>
-                </tr>
-                <tr>
-                    <td>Panthera Sécurité : Chef de poste et Agent de sécurité.</td>
-                </tr>
-                <tr>
-                    <td>Seris : Agent de sécurité.</td>
-                </tr>
-                <tr>
-                    <td>SPR : Agent de sécurité / Agent de sécurité incendie.</td>
-                </tr>
-                <tr>
-                    <td>OLIPS : Agent de protection rapproché.</td>
-                </tr>
-                <tr>
-                    <td>EPR : Agent de protection rapproché.</td>
-                </tr>
-            </table>
-        </div>
-        <div id=tableau3>
-            <table>
-                <tr>
-                    <th id=distribution>Grande distribution :</th>
-                </tr>
-                <tr>
-                    <td>Intermarché (Responsable rayon liquide).</td>
-                </tr>
-            </table>
-        </div>
-        <div id=tableau4>
-            <table>
-                <tr>
-                    <th id=militaire>Militaire :</th>
-                </tr>
-                <tr>
-                    <td>31éme Régiment du Génie (Compagnie de Combat).</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    -->
-    <div class="timeline">
-        <div class="outerLeft">
-            <div class="card">
-                <div class="infoLeft">
-                    <h3 class="titleLeft">Le numérique</h3>
-                    <ul>
-                        <li class="listTimeline">Alternant développeur web - Smartfidélis</li>
-                        <li class="listTimeline">Création de site avec un CMS pour l'entreprise : <a href="https://soiensoi.fr/" target="_blank" title="Entreprise SoienSoi">SoienSoi.</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="outerRight">
-            <div class="card">
-                <div class="infoRight">
-                    <h3 class="titleRight">La sûreté privée</h3>
-                    <ul>
-                        <li class="listTimeline">Panthera Sécurité : Chef de poste et Agent de sécurité</li>
-                        <li class="listTimeline">Seris : Agent de sécurité</li>
-                        <li class="listTimeline">SPR : Agent de sécurité / Agent de sécurité incendie</li>
-                        <li class="listTimeline">OLIPS : Agent de protection rapprochée</li>
-                        <li class="listTimeline">EPR : Agent de protection rapprochée</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="outerLeft">
-            <div class="card">
-                <div class="infoLeft">
-                    <h3 class="titleLeft">La grande distribution</h3>
-                    <ul>
-                        <li class="listTimeline">Intermarché (Responsable rayon liquide)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="outerLast">
-            <div class="card">
-                <div class="infoRight">
-                    <h3 class="titleRight">Le domaine militaire</h3>
-                    <ul>
-                        <li class="listTimeline">31éme Régiment du Génie (Compagnie de Combat)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <h2 id=formations><i class="fa-regular fa-rectangle-list"></i> Mes formations</h2>
-    <h3 id=informatique>Domaine du numérique :</h3>
-    <ul>
-        <li class=liste_formations>DevOps avec l'organisme <em>Campus Numérique In the ALPS</em> : <a href="https://le-campus-numerique.fr/" class="campus" target="_blank" title="Le Campus Numérique in the ALPS"><img src="assets/images/campuspetit.jpg" alt="campus_numérique_in_the_alps" title="campus"/></a></li>
-        <li class=liste_formations>Technicien développeur IoT avec l'organisme <em>Campus Numérique In the ALPS</em> : <a href="https://le-campus-numerique.fr/" class="campus" target="_blank" title="Le Campus Numérique in the ALPS"><img src="assets/images/campuspetit.jpg" alt="campus_numérique_in_the_alps" title="campus"/></a></li>
-        <li class=liste_formations>Compétences Numérique Fondamentales avec la fabrique <em>simplon</em> : <a href="https://simplon.co" class="simplon" target="_blank" title="Simplon.co"><img src="assets/images/simplon.jpg" alt="simplon" title="simplon"/></a></li>
-    </ul>
-    <h3 id=form_secu>Domaine de la sûreté privée :</h3>
-    <ul>
-        <li class=liste_formations>Fondamentaux du tir – Pistolet.</li>
-		<li class=liste_formations>Technique de réaction immédiate - Pistolet.</li>
-		<li class=liste_formations>CQB VHL – Module intermédiaire.</li>
-		<li class=liste_formations>Opérateur Secouriste Tactique + Attestation Stop the bleed.</li>
-		<li class=liste_formations>CQB VHL – Module de bases.</li>
-		<li class=liste_formations>Opérateur privé en protection rapprochée niveau 1 et 2.</li>
-		<li class=liste_formations>Service de Sécurité Incendie et d'Assistance à Personne niveau 1.</li>
-		<li class=liste_formations> Agent de Sûreté et de Sécurité Privée. </li>
-    </ul>
-    <h3 id=magasin>Domaine de la grande distribution :</h3>
-    <ul>
-        <li class=liste_formations>Enseigne Intermarché : Responsable rayon liquide. (Former sur le tas par l'ancien responsable)</li>
-    </ul>
-    <h3 id=form_mili>Domaine militaire :</h3>
-    <ul>
-        <li class=liste_formations>Former au sein du régiment.</li>
-    </ul>
-    <h3 id=btp>Domaine du BTP :</h3>
-    <ul>
-        <li class=liste_formations>Certificat d'Aptitudes Professionnelles : Maçonnerie. (Alternance PME/CFA).</li>
-    </ul>
-    <h3 id=etudes>Etudes :</h3>
-    <ul>
-        <li class=liste_formations>2nd Comptabilité/Secrétariat.</li>
-		<li class=liste_formations>Brevet des collèges.</li>
-    </ul>
-    <h2 id=langues><i class="fa-solid fa-language"></i> Langues</h2>
-    <h3 id=francais>Français :</h3>
-    <ul>
-        <li class=liste_formations>Langue natale. <meter min="0" max="100" value="100"></meter></li>
         
-    </ul>
-    <h3 id=anglais>Anglais :</h3>
-    <ul>
-        <li class=liste_formations>Débutant. <meter min="0" max="100" value="40"></meter></li>
-    </ul>
-    <h2 id=aime><i class="fa-solid fa-heart-circle-check"></i> Ce que j'aime</h2>
-    <p id=love>Passer du temps en famille, les randonnées en montagne, le thé, le bricolage, la Nature, le jardinage, l’informatique, le renforcement musculaire, les sports de combats, les fêtes médiévale, acquérir de nouvelles connaissances et compétences, être autonome.</p>
-    <div class="me_contacter">
-        <div>
-            <a href="contact.html" title="Me contacter"><img src="assets/images/mail2.png" alt="Me contacter"/></a>
-        </div>
-    </div>
-<!-- <div id=bouton_home>
-        <a href="../index.html" title="DevFromAn0therWorld"><img src="../assets/img/gif-unscreen.gif" alt="HOME"/></a>
-    </div>
--->
-    <footer>
-        <div class="d-flex">
-            <div class="p-2 w-100">
-                <p>| 2023 Sébastien Jacquelin |</p>
+      </div>
+
+    </section>
+
+    <hr class="bg-dark border border-top border-dark mx-5 opacity-50">
+
+    <section id="product__section" class="mt-5 mb-5 bg-light p-3">
+
+      <div class="container justify-content-center align-items-center">
+
+        <h1 id="product__title" class="text-center m-3">Boutique FATAL.dev</h1>
+
+        <div class="text-center my-5">
+          <div class="row justify-content-evenly">
+            <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+              <i class="fa-solid fa-headset fa-3x text-primary mb-4"></i>
+              <h6 class="fw-normal mb-0">FATAL.dev</h6>
+              <hr class="bg-dark border border-top border-dark mx-5 opacity-50">
+              <p>FATAL.dev lance ses propres produits, profitez-en !</p>
             </div>
-            <div class="p-2 flex-shrink-1 backTop">
-                <button class="btn btn-success align-self-end btnhover">
-                    <a href="#header" title="Retour en haut">
-                        <img src="assets/images/back-to-top.svg" alt="retour en haut">
-                    </a>   
-                </button>
+        
+            <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+              <i class="fa-brands fa-linux fa-3x text-primary mb-4"></i>
+              <h6 class="fw-normal mb-0">Linux</h6>
+              <hr class="bg-dark border border-top border-dark mx-5 opacity-50">
+              <p>Découvrez les produits de notre partenaire Linux !</p>
+            </div>
+        
+            <div class="col-lg-3 col-md-6 mb-5 mb-md-0 position-relative">
+              <i class="fa-regular fa-rectangle-list fa-3x text-primary mb-4"></i>
+              <h6 class="fw-normal mb-0">Formations</h6>
+              <hr class="bg-dark border border-top border-dark mx-5 opacity-50">
+              <p>Vous souhaitez vous reconvertir ? Venez chez nous !</p>
             </div>
           </div>
-    </footer>  
+        </div>
 
-    <script src="./assets/js/cursorEffectOtherPages.js"></script>
+        <div class="text-center my-5">
+          <p>Pour découvrir nos produits, rendez-vous sur notre catalogue !</p>
+          <a href="/pages/entreprise/catalogue.html" class="btn btn-dark"><i class="fa-solid fa-arrow-right"></i> CATALOGUE</a>
+        </div>
+
+      </div>
+
+    </section>
+    
+    <hr class="bg-dark border border-top border-dark mx-5 opacity-50">
+
+    <footer class="bg-dark d-flex flex-md-row flex-sm-column justify-content-around align-items-center py-3 my-4">
+      <div class="col-md-4 d-flex flex-column flex-md-row align-items-center">
+        <div>
+          <a href="/index.html"class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 d-flex justify-content-center ">
+            <img src="/assets/img/logo_entreprise.png" alt="logo_fatal_dev" class="logo_fatal_dev_footer">
+            <p class="text-white mx-2 mb-md-0 d-flex align-items-center">FATAL.DEV</p>
+          </a>
+        </div>
+        
+
+        <ul class="nav col-md-4 flex-md-row justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-white" href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li class="ms-3"><a class="text-white" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="ms-3"><a class="text-white" href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+
+      </div>
+
+    </footer>
+
+    <script src="/assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+  </main>
 </body>
+
 </html>
