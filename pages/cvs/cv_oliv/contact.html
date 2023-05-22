@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me contacter</title>
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header> 
+
+    <div class="container_header">
+      <div class="title_header">
+        <h1>Olivier HIMBLOT <br>Formation DEVOPS</h1>
+      </div>
+
+      <div class="menu_header">
+        <nav>
+          <ul>
+            <li><a href="index.html">Présentation</a></li>
+            <li><a href="parcours-pro.html">Mon parcours</a></li>
+            <li><a href="contact.html">Me contacter</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <img src="images/photo.jpg" class="photo_id"alt=photo>
+
+    </div>
+  </header>
+  <main>
+
+    <div id="contact_grille">
+
+      <h2>contact</h2>
+
+        <form action="https://httpbin.org/post" method="post">
+
+          <div class="centeritemcontact">
+              <label for="name">Nom:</label>
+                <input class="input_contact" type="text" id="name" name="user_name" placeholder="NOM Prénom">
+          </div>
+
+          <div class="centeritemcontact">
+            <label for="mail">E-mail:</label>
+              <input class="input_contact" type="email" id="mail" name="user_mail" placeholder="exemple@exemple.com">
+          </div>
+
+          <div class="centeritemcontact">
+            <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message" placeholder="Taper votre message"></textarea>
+          </div>
+
+          <div class="cases_cocher">
+            <input type="checkbox" id="terms" required>
+            <label for="terms" class="label_term">J'accepte les réponses par mail.</label>
+          </div>
+          <div>
+
+          <div class="divbutton">
+            <button type="submit" class="button">Envoyer</button>
+          </div>
+
+        </form>
+    </div>
+  </main>
+  <footer>
+    <a class="logo_entreprise" href="/index.html"><img class="photo__team " src="/assets/img/logo_entreprise.png"></a> 
+  </footer>
+
+
+</body>
+</html>
